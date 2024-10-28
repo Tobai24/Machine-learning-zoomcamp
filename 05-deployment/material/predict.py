@@ -1,7 +1,6 @@
 import pickle
 
 import sys
-print(sys.version)
 
 from flask import Flask
 from flask import request
