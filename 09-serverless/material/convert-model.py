@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow import keras
 
-model = keras.models.load_model('clothing-model.h5')
+model = keras.models.load_model('xception_v4_46_0.889.keras')
 
 converter = tf.lite.TFLiteConverter.from_keras_model(model)
 
